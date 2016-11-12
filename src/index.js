@@ -4,7 +4,7 @@ import {getUsers, deleteUser} from './api/usersApi';
 getUsers()
   .then(result => {
     let userBody = "";
-
+  
     result.map(user => {
       userBody += `<tr>
         <td><a href="#" data-id="${user.id}" class="deleteUser">Delete</a></td>
