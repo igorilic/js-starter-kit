@@ -1,4 +1,5 @@
 # Javascript project starter kit
+[![Build Status](https://travis-ci.org/igorilic/js-starter-kit.svg?branch=develop)](https://travis-ci.org/igorilic/js-starter-kit)
 
 ## Decisions
 
