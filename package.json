@@ -5,7 +5,7 @@
   "scripts": {
     "prestart": "babel-node buildScripts/startMessage.js",
     "start": "npm-run-all --parallel security-check start-dev lint:watch test:watch start-mockapi",
-    "start-dev": "babel-node buildScripts/srcServer.js",
+    "start-dev": "babel-node buildScripts/srcServer.js --hot",
     "security-check": "nsp check",
     "localtunnel": "lt --port 3000",
     "share": "npm-run-all --parallel start-dev localtunnel",
@@ -19,7 +19,8 @@
     "clean-dist": "rimraf ./dist && mkdir dist",
     "prebuild": "npm-run-all clean-dist test lint",
     "build": "babel-node buildScripts/build.js",
-    "postbuild": "babel-node buildScripts/distServer.js"
+    "postbuild": "babel-node buildScripts/distServer.js",
+    "deploy": "surge ./dist"
   },
   "author": "Igor Ilic",
   "license": "MIT",
@@ -54,6 +55,7 @@
     "nsp": "2.6.2",
     "numeral": "1.5.3",
     "open": "0.0.5",
+    "raw-loader": "^0.5.1",
     "rimraf": "2.5.4",
     "style-loader": "0.13.1",
     "webpack": "1.13.2",
