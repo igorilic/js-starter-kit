@@ -17,6 +17,13 @@ app.use(require('webpack-dev-middleware')(compiler, {
 app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '../src/index.html'));
 });
+app.get('/users', (req, res) => {
+  res.json([
+    {"id": 1, "firstName": "Bob", "lastName": "Smith"},
+    {"id": 2, "firstName": "Tammy", "lastName": "Norton"},
+    {"id": 3, "firstName": "Tina", "lastName": "Lee"},
+  ]);
+});
 
 app.listen(port, (err) => {
   if(err) {
