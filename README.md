@@ -13,14 +13,14 @@ Editors:
 - Atom
 - Webstorm
 - Brackets
-- *VSCode*
+- **VSCode**
 
 Automated Consistency via EditorConfig
 
 ### Package Management
 
 - Bower
-- *npm*
+- **npm**
 - JSPM
 - Jam
 - volo
@@ -34,14 +34,14 @@ Security Check
 
 - http-server
 - live-server
-- *express* (koa, hapi)
+- **express** (koa, hapi)
 - budo (with Browserify)
 - webpack dev server (with webpack)
 - Browsersync 
 
 Sharing Work-in-progress
 
-- *localtunnel*
+- **localtunnel**
 - ngrok
 - now
 - surge
@@ -51,17 +51,17 @@ Sharing Work-in-progress
 
 - gulp
 - grunt
-- *npm*
+- **npm**
 
 ### Transpiling
 
-- *babel*
+- **babel**
 - typescript
 - elm
 
 ### Bundling
 
-- *webpack*
+- **webpack**
 - Browserify
 - Rollup
 - JSPM
@@ -70,13 +70,13 @@ Sharing Work-in-progress
 
 - JSLint
 - JSHint
-- *ESLint*
+- **ESLint**
 
 ### Unit Testing
 
 #### Framework
 
-- *Mocha*
+- **Mocha**
 - Jasmine
 - Tape
 - QUnit
@@ -85,14 +85,14 @@ Sharing Work-in-progress
 
 #### Assertion Library
 
-- *chai*
+- **chai**
 - shouldjs
 - expect
 
 #### Helper Libraries
 
-- *JSDOM*
-- *Cheerio*
+- **JSDOM**
+- **Cheerio**
 
 #### Where to run tests
 
@@ -103,7 +103,7 @@ Sharing Work-in-progress
 #### Where to place tests
 
 - Centralized (folder)
-- *Alongside*
+- **Alongside**
 
 #### When to run tests
 
@@ -112,7 +112,7 @@ Sharing Work-in-progress
 
 ### Continous Integration
 
-- *Travis*
+- **Travis**
 - Appveyor
 - Jenkins
 
